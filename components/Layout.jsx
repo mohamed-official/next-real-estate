@@ -1,14 +1,17 @@
 import { Box } from "@chakra-ui/react";
+import Footer from "./Footer";
 import Navbar from "./Navbar";
 
 const Layout = ({ children }) => {
   return (
     <Box maxW={1280} m="auto">
-      <header>
+      <nav>
         <Navbar />
-      </header>
+      </nav>
       <main>{children}</main>
-      <footer>Footer</footer>
+      <footer>
+        <Footer />
+      </footer>
     </Box>
   );
 };
