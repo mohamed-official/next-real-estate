@@ -6,7 +6,7 @@ const Footer = () => (
     p="5px"
     color="gray.600"
     borderTop="1px"
-    borderColor="gray.100"
+    borderColor="gray.300"
   >
     2022 Estator, Inc.
   </Box>

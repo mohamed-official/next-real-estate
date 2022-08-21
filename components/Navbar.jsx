@@ -14,7 +14,7 @@ import { FcAbout, FcHome } from "react-icons/fc";
 import { FiKey, FiMenu } from "react-icons/fi";
 
 const Navbar = () => (
-  <Flex p={"2px"} borderBottom="1px" borderColor="gray.300">
+  <Flex px="25px" py="5px" borderBottom="1px" borderColor="gray.300">
     <Box fontSize="3xl" color="blue.400" fontWeight="bold">
       <Link href="/" paddingLeft={2}>
         Estator
